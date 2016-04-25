@@ -1,0 +1,1 @@
+{"version":3,"sources":["../client/index.jsx"],"names":[],"mappings":";;AAAA;;;;AACA;;AACA;;;;;;AAEA,sBACE,+CAAK,OAAM,SAAX,GADF,EAEE,SAAS,cAAT,CAAwB,MAAxB,CAFF","file":"index.js","sourcesContent":["import React from 'react';\nimport { render } from 'react-dom';\nimport App from './App';\n\nrender(\n  <App title=\"Desktop\" />,\n  document.getElementById('root')\n)"]}

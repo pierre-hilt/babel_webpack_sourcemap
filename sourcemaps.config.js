@@ -9,6 +9,14 @@ module.exports = {
     filename: '[name].bundle.js',
     publicPath: '/',
   },
+  module: {
+    preLoaders: [
+      {
+        test: /\.jsx?$/,
+        loader: "source-map-loader"
+      }
+      ]
+  },
   resolve: {
     extensions: ['', '.js', '.jsx'],
   },
